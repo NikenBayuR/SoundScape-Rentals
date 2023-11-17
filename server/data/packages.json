@@ -1,0 +1,74 @@
+[
+    {
+        "name": "1.000 watt",
+        "price": 1500000,
+        "description": "Mendapatkan 2 unit speaker 15 inch, 1 unit mixer, 2 unit wireless mic, 2 unit cable mic,Sound Man",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2020/02/sewa-sound-system-1000-watt.png",
+        "CategoryId": 1,
+        "UserId": 1
+    },
+    {
+        "name": "2.000 watt",
+        "price": 2000000,
+        "description": "Mendapatkan 4 unit speaker 15 inch, 1 unit mixer, 2 unit wireless mic, 2 unit cable mic, Sound Man",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2020/02/sewa-sound-system-2000-watt.png",
+        "CategoryId": 1,
+        "UserId": 1
+    },
+    {
+        "name": "3.000 watt",
+        "price": 2500000,
+        "description": "6 unit speaker 15 inch, 1 unit mixer, 2 unit wireless mic, 2 unit cable mic, Sound Man",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2020/02/sewa-sound-system-3000-watt.png",
+        "CategoryId": 1,
+        "UserId": 1
+    },
+    {
+        "name": "5.000 watt",
+        "price": 3500000,
+        "description": "4 unit speaker 15 inch, 2 unit three way 2x15 inch, 2 unit sub woofer 18 inch, 1 unit mixer, 2 unit wireless mic, 2 unit cable mic, Sound Man",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2020/02/5000-watt-polos-1.png",
+        "CategoryId": 1,
+        "UserId": 1
+    },
+    {
+        "name": "10.000 watt",
+        "price": 7000000,
+        "description": "6 unit speaker 15 inch, 4 unit three way 2x15 inch, 4 unit sub woofer 18 inch, 1 unit mixer, 2 unit wireless mic, 2 unit cable mic, Sound Man",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2020/02/sewa-sound-system-10000-watt.png",
+        "CategoryId": 1,
+        "UserId": 1
+    },
+    {
+        "name": "20.000 watt",
+        "price": 17000000,
+        "description": "8 unit Das Event 210, 6 unit Das Event 218, 8 unit Das Event 12a, 2 unit mixer Midas m32, 4  unit wireless mic, 4 unit cable mic, Sound Man",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2020/11/20.000-watt.png",
+        "CategoryId": 1,
+        "UserId": 1
+    },
+    {
+        "name": "Paket Lighting 1.000 Watt",
+        "price": 2000000,
+        "description": "Par LED 8 unit, Standing Tripod Lighting 2 unit, Smoke Gun 1 unit, Mixer 1 unit, Operator",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2022/09/20-1024x1024.png",
+        "CategoryId": 2,
+        "UserId": 1
+    },
+    {
+        "name": "Paket Lighting 2.000 Watt",
+        "price": 3000000,
+        "description": "Par LED 8 unit, Standing Tripod Lighting 2 unit, Moving Beam 2 unit, Smoke Gun 1 unit, Fresnel 2 unit, Mixer 1 unit, Operator",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2022/09/21-1024x1024.png",
+        "CategoryId": 2,
+        "UserId": 1
+    },
+    {
+        "name": "Paket Lighting 3.000 Watt",
+        "price": 4000000,
+        "description": "Par LED 8 unit, Standing Tripod Lighting 2 unit, Moving Beam 4 unit,Smoke Gun 1 unit, Fresnel 2 unit, Mixer 1 unit, Operator",
+        "imageURL": "https://soundjakarta.com/wp-content/uploads/2022/09/22-1024x1024.png",
+        "CategoryId": 2,
+        "UserId": 1
+    }
+]
