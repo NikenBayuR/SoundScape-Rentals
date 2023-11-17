@@ -61,7 +61,6 @@ const errorHandler = (err, req, res, next) => {
     default:
       break;
   }
-  // Package does not exist
   res.status(status).json({ message });
 };
 module.exports = errorHandler;

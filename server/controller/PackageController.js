@@ -20,7 +20,6 @@ class PackageController {
       next(err);
     }
   }
-
   static async addPackage(req, res, next) {
     const UserId = req.loginInfo.UserId;
     try {

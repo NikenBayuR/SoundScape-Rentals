@@ -11,4 +11,5 @@ router.use(authentication);
 router.use("/categories", categoryRouter); //memakai authorizeAdmin dan harus memakai authentication
 router.use("/packages", packageRouter); //memakai authorizeAdmin dan harus memakai authentication
 
+
 module.exports = router;

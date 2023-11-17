@@ -16,7 +16,6 @@ class AuthController {
       next(err);
     }
   }
-
   static async login(req, res, next) {
     try {
       const { email, password } = req.body;

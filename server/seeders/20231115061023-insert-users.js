@@ -1,5 +1,6 @@
 "use strict";
 
+
 const { hash } = require("../helpers/bcryptjs");
 const fs = require("fs").promises;
 /** @type {import('sequelize-cli').Migration} */

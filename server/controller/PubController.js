@@ -21,4 +21,5 @@ class PubController {
     }
   }
 }
+
 module.exports = PubController;
