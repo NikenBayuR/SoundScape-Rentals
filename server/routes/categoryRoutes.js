@@ -7,4 +7,5 @@ categoryRouter.get("/:id", categoryController.categoryById);
 categoryRouter.put("/:id", categoryController.updateCategoryById);
 categoryRouter.delete("/:id", categoryController.deleteCategoryById);
 
+
 module.exports = categoryRouter;

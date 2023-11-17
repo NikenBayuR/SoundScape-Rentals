@@ -1,4 +1,5 @@
 "use strict";
+
 const fs = require("fs").promises;
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {

@@ -9,7 +9,6 @@ class CategoryController {
       next(err);
     }
   }
-
   static async addCategory(req, res, next) {
     try {
       const { name, imageURL } = req.body;
