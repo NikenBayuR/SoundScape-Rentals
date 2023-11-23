@@ -2,7 +2,7 @@
 import axios from "axios";
 import { GoogleLogin } from "@react-oauth/google";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link} from "react-router-dom";
 import { URL } from "../configs/config";
 import Button from "../component/Button";
 
@@ -28,8 +28,8 @@ const LoginView = () => {
       e.preventDefault();
 
       const { data } = await axios.post(`${BASE_URL}/users/login`, loginInput);
-
-      localStorage.setItem("access_token", data.access_token);
+      console.log(data);
+        localStorage.setItem("access_token", JSON.stringify({ token: data }));
 
       navigate("/");
     } catch (err) {
@@ -96,6 +96,7 @@ const LoginView = () => {
                   <h1>Login with Google Account</h1>
                   <GoogleLogin onSuccess={googleLogin} />
                 </div>
+                <p className="text-black-500 mt-4">Don't have an account? Register <Link to="/register" className="text-blue-500">here</Link></p>
               </div>
             </div>
           </div>
