@@ -90,7 +90,6 @@ class AuthController {
   static async googleLogin(req, res, next) {
     try {
       const { token } = req.headers;
-      console.log(token,"<<<< ini token 94");
       const client = new OAuth2Client();
 
       const ticket = await client.verifyIdToken({

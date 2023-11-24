@@ -1,17 +1,14 @@
-
 import { createBrowserRouter, redirect } from "react-router-dom";
 import LoginAuth from "../views/LoginAuth";
-import { GoogleOAuthProvider } from "@react-oauth/google";
 import LandingViews from "../views/LandingViews";
 import Parent from "../views/NavbarViews";
 import CardDetail from "../views/DetailCard";
+import RegisterViews from "../views/RegisterPage";
 const router = createBrowserRouter([
   {
     path: "/login",
     element: (
-      <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
-        <LoginAuth />
-      </GoogleOAuthProvider>
+      <LoginAuth />
     ),
     loader: async () => {
       if (localStorage.access_token) {
@@ -21,6 +18,10 @@ const router = createBrowserRouter([
     },
   },
   {
+    path: "/register",
+    element: <RegisterViews />,
+  },
+  {
     element: <Parent />,
     children: [
       {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
         element: <LandingViews />,
       },
       {
-        path: "/detail/:id",
+        path: "/packagesDetails/:id",
         element: <CardDetail />,
       },
     ],
